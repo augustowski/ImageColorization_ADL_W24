@@ -1,4 +1,4 @@
-# Applied Deep Learning, WS23 
+# Applied Deep Learning, WS24 
 
 Author: Anastasia Cissa, 11937948 
 
@@ -13,9 +13,9 @@ Author: Anastasia Cissa, 11937948
 Image colorization is a fascinating problem that's being tackled using deep learning. It's all about taking black-and-white photos and adding realistic colors to them. By using machine learning (ML)algorithms, we can make old pictures look vibrant and alive again. The idea of reviving photos from personal and town archive by applying existing ML models is a reason of choosing this topic for the project. 
 Previously, image colorization models weren't used in Moldova (my homecountry); all the work was done by hand. Now, I will try to implement a solution to automate the process, reducing it from a month's work to just a few clicks.
 
-In this project I focus on collecting own data test set, so type of the project is "Bring your own data". It will contain scanned photos from family and town archive. Later on, they will be processed and adjusted, so they could be used by existing models. For training one of these datasets will be used: [Places](http://places.csail.mit.edu/index.html) or [ImageNet](https://image-net.org/index.php). They are free for non-commercial research purposes and provide sufficient amount of the data to train the model. 
+In this project I focus on collecting own data test set, so type of the project is "Bring your own data". It will contain scanned photos from National Archive of Moldova, photos from personal collections and archives and scraped from open source internet resources.  Later on, they will be processed and adjusted, so they could be used by existing models. For training one of these datasets will be used: [Places](http://places.csail.mit.edu/index.html) or [ImageNet](https://image-net.org/index.php). They are free for non-commercial research purposes and provide sufficient amount of the data to train the model. 
 
-Based on research of the existing models, I will try to implement either conditional Generative Adversarial Networks (GAN) or U-NET models (most probablz the first one). 
+Based on research of the existing models, I will try to implement either conditional Generative Adversarial Networks (GAN) or U-NET models. 
 
 ## References to scientific papers related to the chosen topic
 
@@ -35,13 +35,13 @@ Thorough description of conditional GAN implementation.
 
 Task  | Effort in hours
 ------------- | -------------
-Dataset collection | 8 hours
-Implementing the model architecture and debugging/testing it | 20 hours
-Training the model | 15 hours
-Running the model | 20 hours
-Implementing tests, documenting the code | 8 hours
-Build application to present results | 4 hours
-Writing the final report | 5 hours
-Preparing presentation of the work | 5 hours
+Dataset collection | 25 hours
+Implementing the model architecture and debugging/testing it | 15 hours
+Training the model | 10 hours
+Running the model | 4 hours
+Implementing tests, documenting the code | 4 hours
+Build application to present results |  hours
+Writing the final report | 3 hours
+Preparing presentation of the work | 2 hours
 
 Most likely time spent on the work will be prolonged due to author's experience. 
