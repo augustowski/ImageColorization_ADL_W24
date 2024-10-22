@@ -40,7 +40,7 @@ Implementing the model architecture and debugging/testing it | 15 hours
 Training the model | 10 hours
 Running the model | 4 hours
 Implementing tests, documenting the code | 4 hours
-Build application to present results |  hours
+Build application to present results | 7 hours
 Writing the final report | 3 hours
 Preparing presentation of the work | 2 hours
 
