@@ -47,4 +47,4 @@ Papers listed below discuss the current state-of-the-art in deep learning-based 
 | Writing the final report                         | 4 hours         |
 | Presentation preparation                         | 2 hours         |
 
-Total project effort: **91 hours**. However, the complexity of data collection (scraping, survey creation, and gathering responses) could add some additional hours based on user participation and the number of external sources scraped.
+Total project effort: **70 hours**. However, the complexity of data collection (scraping, survey creation, and gathering responses) could add some additional hours based on user participation and the number of external sources scraped.
