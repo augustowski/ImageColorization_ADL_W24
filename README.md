@@ -70,7 +70,7 @@ All models can be found and tested using `notebooks` section.
 For this project, we aim to analyze historical photos related to Moldova. That is done using publicly available data from two main sources:
 
 1. **PastVu**, a [platform](https://pastvu.com/) that curates historical photographs and provides an API for structured access.
-2. **Instagram**, leveraging publicly accessible content from the official account of the [**National Agency of Archives (Agenția Națională a Arhivelor)**](https://www.instagram.com/arhiva.gov.md/) and of the 20th-century photographer [**Zaharia Cusnir**] (https://www.instagram.com/zahariacusnir/). To scrape data from Instagram Chrome extension was used. 
+2. **Instagram**, leveraging publicly accessible content from the official account of the [**National Agency of Archives (Agenția Națională a Arhivelor)**](https://www.instagram.com/arhiva.gov.md/) and of the 20th-century photographer [**Zaharia Cusnir**](https://www.instagram.com/zahariacusnir/). To scrape data from Instagram Chrome extension was used. 
 
 #### **Methodology: Scraping Data from the PastVu API**
 
