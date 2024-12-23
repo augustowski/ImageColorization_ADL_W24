@@ -1,0 +1,10 @@
+numpy
+Pillow
+matplotlib
+scikit-image
+torch
+torchvision
+fastai
+tqdm
+wandb
+google-colab

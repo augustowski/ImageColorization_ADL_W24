@@ -39,6 +39,10 @@ ADL-WS-2024/
 │   ├── combined_data                           # Data used to extend training data
 │   └── combined_data_bw                        # Data used as a test set
 │
+├── files/                                      # Pictures used in README.md
+│
+├── results/                                    # Model results for the test set
+│
 ├── wandb_results/                              # Wandb Log Screenshots
 │
 ├── data_web_scraper.ipynb                      # Notebook used to scrape part of the data
@@ -152,3 +156,58 @@ This project draws on the **pix2pix framework** from the paper [_Image-to-Image 
 
 ---
 
+### 5. Results
+
+Firstly, let's take a look at one of the results we got from running trainbed model at the test set. 
+
+<img src="/results/download (9) - 5.png" width="65%">
+
+First line represents pictures turned into the same greyscale palette, the second row is output of the model, and the third one are original pictures. 
+
+If we take a look at all other pictures in `results` folder, we can that model uses lots of magenta and green colors in unexpected places, and it performs worse on pictures that show specific scenarios connected to traditions, customs and history represented. 
+
+Secondly, let's take a look on results we got during the training. 
+
+<table>
+  <caption>Results of the first training </caption>
+  <tr>
+    <td><img src="wandb_results\train1_1.svg" alt="Image 1" width="300"></td>
+    <td><img src="wandb_results\train1_2.svg" alt="Image 2" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="wandb_results\train1_3.svg" alt="Image 3" width="300"></td>
+    <td><img src="wandb_results\train1_4.svg" alt="Image 4" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="wandb_results\train1_5.svg" alt="Image 5" width="300"></td>
+    <td><img src="wandb_results\train1_6.svg" alt="Image 6" width="300"></td>
+  </tr>
+</table>
+
+The training graphs reveal key insights into the behavior of the generator and discriminator during the first trainer's progress.
+
+The **Loss_D_fake** tracks the discriminator's ability to identify fake images. It initially rises as the generator improves, then stabilizes as the discriminator adapts. Similarly, **Loss_D_real** reflects the discriminator’s ability to classify real images. Its early increase suggests the generator is producing better outputs, but it eventually decreases as the discriminator improves.
+
+The **Loss_D**, representing the overall discriminator loss, combines both tasks. It follows a similar trend, with initial fluctuations stabilizing as the models reach equilibrium.
+
+The **Loss_G_L1**, the pixel-wise generator loss, decreases steadily, indicating the generator is improving its accuracy in predicting realistic color channels. The **Loss_G_GAN**, which measures how well the generator fools the discriminator, drops sharply early on, showing rapid improvement, and later stabilizes. Lastly, **Loss_G**, the total generator loss, steadily declines, reflecting overall progress in both accuracy and realism.
+
+In summary, the generator and discriminator initially struggle, but their performance stabilizes as training progresses, with the generator producing increasingly realistic and accurate outputs.
+
+<table>
+  <caption>Results of the second training </caption>
+  <tr>
+    <td><img src="wandb_results\train2_1.svg" alt="Image 7" width="300"></td>
+    <td><img src="wandb_results\train2_2.svg" alt="Image 8" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="wandb_results\train2_3.svg" alt="Image 9" width="300"></td>
+    <td><img src="wandb_results\train2_4.svg" alt="Image 10" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="wandb_results\train2_5.svg" alt="Image 11" width="300"></td>
+    <td><img src="wandb_results\train2_6.svg" alt="Image 12" width="300"></td>
+  </tr>
+</table>
+
+We can see that results are significantly improved. 
