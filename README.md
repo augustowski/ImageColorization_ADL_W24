@@ -197,16 +197,16 @@ In summary, the generator and discriminator initially struggle, but their perfor
 <table>
   <caption>Results of the second training </caption>
   <tr>
-    <td><img src="wandb_results\train2_1.svg" alt="Image 7" width="300"></td>
-    <td><img src="wandb_results\train2_2.svg" alt="Image 8" width="300"></td>
+    <td><img src="wandb_results\train2-3.svg" alt="Image 7" width="300"></td>
+    <td><img src="wandb_results\train2-1.svg" alt="Image 8" width="300"></td>
   </tr>
   <tr>
-    <td><img src="wandb_results\train2_3.svg" alt="Image 9" width="300"></td>
-    <td><img src="wandb_results\train2_4.svg" alt="Image 10" width="300"></td>
+    <td><img src="wandb_results\train2-2.svg" alt="Image 9" width="300"></td>
+    <td><img src="wandb_results\train2-4.svg" alt="Image 10" width="300"></td>
   </tr>
   <tr>
-    <td><img src="wandb_results\train2_5.svg" alt="Image 11" width="300"></td>
-    <td><img src="wandb_results\train2_6.svg" alt="Image 12" width="300"></td>
+    <td><img src="wandb_results\train2-5.svg" alt="Image 11" width="300"></td>
+    <td><img src="wandb_results\train2-6.svg" alt="Image 12" width="300"></td>
   </tr>
 </table>
 
