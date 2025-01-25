@@ -39,6 +39,8 @@ ADL-WS-2024/
 │   ├── combined_data                           # Data used to extend training data
 │   └── combined_data_bw                        # Data used as a test set
 │
+├── report/                                     # Report for the 3rd assignment
+│
 ├── files/                                      # Pictures used in README.md
 │
 ├── results/                                    # Model results for the test set
@@ -49,6 +51,8 @@ ADL-WS-2024/
 ├── Image_Colorization_with_U_Net_and_GAN.ipynb # Image Colorization Model 
 ├── README.md                                   # Project description, setup
 ├── requirements.txt                            # Python dependencies
+├── model.py                                    # Model architecture needed for streamlit application
+├── streamlit_app.py                            # Streamlit application
 └── .gitignore                                  # Ignore unnecessary files (e.g., parts of 'data' folder)
 
 ```
@@ -210,4 +214,15 @@ In summary, the generator and discriminator initially struggle, but their perfor
   </tr>
 </table>
 
-We can see that results are significantly improved. 
+We can see that results are significantly improved.
+
+## Assignment 3 - Deliver 
+
+During this stage we had to deploy our model online. For this purposes I decided to create a ´streamlit´ application. You can run it by installing streamlit library and then run the following code. 
+
+```bash
+streamlit run streamlit_app.py 
+```
+
+To ensure that everyone could try the application, I decided to use HuggingFace Spaces, so it becomes accessible right from link. This link will lead you to the application - [HuggingsFace Spaces Apllication link]([https://image-net.org/index.php](https://huggingface.co/spaces/augustowski/image_colorization_app)). 
+The report for tha Assignment 3 can be found in the folder ´report´. 
