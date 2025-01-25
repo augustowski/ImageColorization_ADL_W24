@@ -7,4 +7,11 @@ torchvision
 fastai
 tqdm
 wandb
-google-colab
+streamlit 
+cython 
+setuptools
+wheel
+opencv-python 
+mlem
+pydantic
+gradio
