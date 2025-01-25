@@ -224,5 +224,5 @@ During this stage we had to deploy our model online. For this purposes I decided
 streamlit run streamlit_app.py 
 ```
 
-To ensure that everyone could try the application, I decided to use HuggingFace Spaces, so it becomes accessible right from link. This link will lead you to the application - [HuggingsFace Spaces Apllication link]([[https://image-net.org/index.php](https://huggingface.co/spaces/augustowski/image_colorization_app)]). 
+To ensure that everyone could try the application, I decided to use HuggingFace Spaces, so it becomes accessible right from link. This link will lead you to the application - [HuggingsFace Spaces Apllication link](https://huggingface.co/spaces/augustowski/image_colorization_app). 
 The report for tha Assignment 3 can be found in the folder ´report´. 
