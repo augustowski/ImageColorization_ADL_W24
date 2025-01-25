@@ -20,9 +20,9 @@ Implementing the model architecture and debugging/testing it | 15 hours | Comple
 Training the model | 10 hours | Completed
 Running the model | 4 hours | Completed
 Implementing tests, documenting the code | 4 hours | Completed
-Build application to present results | 7 hours | To-do
-Writing the final report | 3 hours | To-do
-Preparing presentation of the work | 2 hours | To-do
+Build application to present results | 7 hours | Completed
+Writing the final report | 3 hours | Completed
+Preparing presentation of the work | 2 hours | Completed
 
 Most likely time spent on the work will be prolonged due to author's experience. 
 
